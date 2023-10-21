@@ -1,0 +1,83 @@
+/* color property with a color name value */
+/* p {
+    color: cornflowerblue;
+  } */
+
+/* color property with a color hex code value */
+/* p {
+    color: #e1a4b8;
+  } */
+
+.title {
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+/* * {
+    font-family: "Lobster", cursive;
+    font-family: "Open Sans", sans-serif;
+  } */
+
+/* a solid color background */
+/* body {
+    background-color: #cccccc;
+  } */
+
+/* a background gradient */
+/* body {
+    background-image: linear-gradient(red, yellow);
+  } */
+
+/* a background image */
+/* body {
+    background-image: url("img.jpg");
+  } */
+
+/* additional modifications for backgrounds */
+body {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-image: url(https://i0.pickpik.com/photos/236/137/184/background-treasure-map-map-discover-preview.jpg);
+}
+
+/* Place text in the middle of the image */
+/* .background {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  } */
+
+.center {
+    text-align: center;
+    border: 3px solid red;
+  }
+
+#gameboard {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+img {
+    border-radius: 8px;
+    /* display: flex; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+table,
+tr,
+td {
+  border: 1px solid;
+  width: 25%;
+  text-align: center;
+}

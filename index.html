@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang=“en”>
+<head>
+    <meta charset=“UTF-8">
+    <meta name=“viewport” content=“width=device-width, initial-scale=1.0">
+    <title>Treasure Hunt Game</title>
+        <!-- favicon -->
+        <link rel="icon" type="image/x-icon" href="https://i.ebayimg.com/images/g/LbUAAOSwYXliqWVi/s-l500.png">
+        <link rel="stylesheet" href="treasurehunt.css" />
+</head>
+<body>
+    <h1 class="title">Treasure Hunt Game</h1>
+    <img src="https://tinyurl.com/3525jhmw" alt="treasure map photo" />
+<ul class="center">
+    <li>Click the boxes to reveal what’s on the map</li>
+    <li>If you click on a pirate, you lose the treasure you have so far</li>
+    <li>If you click on the treasure, you win that treasure</li>
+</ul>
+<div id="gameboard">
+    <table>
+<tr>
+<td id="0" onclick="treasure(0)">?</td>
+<td id="1" onclick="treasure(1)">?</td>
+<td id="2" onclick="treasure(2)">?</td>
+</tr>
+<tr>
+  <td id="3" onclick="treasure(3)">?</td>
+  <td id="4" onclick="treasure(4)">?</td>
+  <td id="5" onclick="treasure(5)">?</td>
+    </tr>
+    <tr>
+    <td id="6" onclick="treasure(6)">?</td>
+    <td id="7" onclick="treasure(7)">?</td>
+    <td id="8" onclick="treasure(8)">?</td>
+        </tr>
+</table>
+</div>
+<br>
+<br>
+<br>
+<div id="gameboard">
+<button type="button" onclick="location.reload()">Restart Game</button>
+</div>
+<br>
+<br>
+<br>
+<footer>&copy; Jeremie & Jeffrey
+    <a href="https://tinyurl.com/5n6jpryu"  alt="Island paradise photo"></a>
+</footer>
+<script type="text/javascript" src="treasurehunt.js"></script>></script>
+</body>
+</html>
